@@ -4,11 +4,11 @@
 
 > update on 10/2021
 
-# 1. Installation and Licensing
+## 1. Installation and Licensing
 
 You  can also find more detailed information about this section from Lumerical official support website: https://support.lumerical.com/hc/en-us/categories/360001597473-Installation-Licensing
 
-## 1.1 Download installation files
+### 1.1 Download installation files
 
 If you already have the installation files of Lumerical, you can skip this part to next section. This part will mainly introduce how to download Lumerical installation files. 
 
@@ -22,7 +22,7 @@ Now, you already have an Ansys account, you can log in to your own account and d
 
 ![Customer Downloads](https://i.imgur.com/xV4GGG9.png "Customer Downloads")
 
-## 1.2 Installation
+### 1.2 Installation
 
 According to the official description of Lumerical, only the following operating systems are officially supported and verified for operation (64-bit editions only):
 
@@ -54,7 +54,7 @@ Lumerical software has limited support on other operating systems that are known
 
 
 
-### 1.2.1 Windows
+#### 1.2.1 Windows
 
 > Notes:
 >
@@ -80,7 +80,7 @@ Lumerical product installation on Windows:
 
    
 
-### 1.2.2 Linux
+#### 1.2.2 Linux
 
 > Notes:
 >
@@ -117,7 +117,7 @@ Lumerical product Installation on Linux:
 
 ***Ubuntu and other Debian based Linux distributions are not officially supported. However Lumerical still gives installation guide. Check more information [here](https://support.lumerical.com/hc/en-us/articles/1500005392522-Lumerical-installation-guide-on-Ubuntu).** 
 
-### 1.2.3 macOS
+#### 1.2.3 macOS
 
 > **End of Life**
 > Support for Mac OS ended with Lumerical release 2020 R2. See this [article](https://forum.ansys.com/discussion/25625/2020-r2-release-notes#latest) for details. 
@@ -128,58 +128,58 @@ Lumerical product Installation on Linux:
 4. Select to Uninstall or Continue without uninstall, when prompted and complete the installation.
 5. Connect to your License server.  Alternately, you may request a free 30-day evaluation license.  
 
-## 1.3 Licensing
+### 1.3 Licensing
 
 Regarding software license and related questions, you need to contact [Dr. Yuqing Jiao](https://www.tue.nl/en/research/researchers/yuqing-jiao/) to obtain Lumerical license.
 
 
 
-# 2. Lumerical Support
+## 2. Lumerical Support
 
-## 2.1 Ansys Learning Forum (ALF)
+### 2.1 Ansys Learning Forum (ALF)
 
-## 2.2 Application Gallery (APP)
+### 2.2 Application Gallery (APP)
 
-## 2.3 Knowledge Base (KB)
+### 2.3 Knowledge Base (KB)
 
-## 2.4 Lumerical University (EDU) 
+### 2.4 Lumerical University (EDU) 
 
-## 2.5 Ideas Exchange (IX)
-
-
-
-# 3. DEVICE Suite
-
-## 3.1 FDTD
-
-### 3.1.X Examples
-
-## 3.2 MODE
-
-### 3.2.X Examples
+### 2.5 Ideas Exchange (IX)
 
 
 
-# 4. System Suite
+## 3. DEVICE Suite
 
-## 4.1 INTERCONNECT
+### 3.1 FDTD
 
-### 4.1.X Examples
+#### 3.1.X Examples
 
+### 3.2 MODE
 
-
-# 5. Scripting Language
-
-## 5.1 Lumerical University
-
-## 5.2 Scripting language - Category Listed (updating)
+#### 3.2.X Examples
 
 
 
-# 6. Tool integrations
+## 4. System Suite
 
-## 6.1 MATLAB
+### 4.1 INTERCONNECT
 
-## 6.2 More Software
+#### 4.1.X Examples
 
-## 
+
+
+## 5. Scripting Language
+
+### 5.1 Lumerical University
+
+### 5.2 Scripting language - Category Listed (updating)
+
+
+
+## 6. Tool integrations
+
+### 6.1 MATLAB
+
+### 6.2 More Software
+
+### 
