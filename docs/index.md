@@ -26,7 +26,7 @@ Now, you already have an Ansys account, you can log in to your own account and d
 
 According to the official description of Lumerical, only the following operating systems are officially supported and verified for operation (64-bit editions only):
 
-> updated on 19.05.2021
+> updated on 08.2021
 
 + Windows
   +  Windows® 10 (Professional, Enterprise & Education)	
@@ -135,51 +135,90 @@ Regarding software license and related questions, you need to contact [Dr. Yuqin
 
 
 ## 2. Lumerical Support
+under writing......
 
 ### 2.1 Ansys Learning Forum (ALF)
+under writing......
+
 
 ### 2.2 Application Gallery (APP)
+under writing......
+
 
 ### 2.3 Knowledge Base (KB)
+under writing......
+
 
 ### 2.4 Lumerical University (EDU) 
+under writing......
+
 
 ### 2.5 Ideas Exchange (IX)
+under writing......
+
 
 
 
 ## 3. DEVICE Suite
+under writing......
+
 
 ### 3.1 FDTD
+under writing......
+
 
 #### 3.1.X Examples
+under writing......
+
 
 ### 3.2 MODE
+under writing......
+
 
 #### 3.2.X Examples
+under writing......
+
 
 
 
 ## 4. System Suite
+under writing......
+
 
 ### 4.1 INTERCONNECT
+under writing......
+
 
 #### 4.1.X Examples
+under writing......
+
 
 
 
 ## 5. Scripting Language
+under writing......
+
 
 ### 5.1 Lumerical University
+under writing......
+
 
 ### 5.2 Scripting language - Category Listed (updating)
+under writing......
+
 
 
 
 ## 6. Tool integrations
+under writing......
+
 
 ### 6.1 MATLAB
+under writing......
+
 
 ### 6.2 More Software
+under writing......
+
 
 ### 
