@@ -1,10 +1,7 @@
 ## Welcome to Lumerical Manualbook for TU Eindhoven
 
-Version 10.21
-
-[toc]
-
 > update on 10/2021
+> @ Eindhoven
 
 ### 1. Installation and Licensing
 
