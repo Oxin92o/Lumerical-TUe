@@ -138,8 +138,13 @@ Because of the update of the ANSYS support system, the specific web pages will b
 
 
 #### 2.1 Ansys Learning Forum (ALF)
+URL: <https://forum.ansys.com/categories/photonics>
+
 
 #### 2.2 Application Gallery (APP)
+URL: <https://support.lumerical.com/hc/en-us#app-anchor>
+
+
 
 #### 2.3 Knowledge Base (KB)
 
