@@ -139,19 +139,34 @@ Because of the update of the ANSYS support system, the specific web pages will b
 
 #### 2.1 Ansys Learning Forum (ALF)
 URL: <https://forum.ansys.com/categories/photonics>
+![Photonics Forum](https://i.imgur.com/eUA6mQw.png)
 
+Lumerical Knowledge Exchange (KX) has moved to the Ansys Learning Forum (ALF) on April 16, 2021.
+
+Here you can communicate with ANSYS employees for any questions about the use of the software, whether it is technical or software function questions, you can put them on the forum. A key difference between ALF and KX is that Ansys employees (including the Lumerical team) are not permitted to download any attachments (learn more here). Screenshots are recommended if you want feedback on the settings in your project files.
+
+The following is a list of classic Q&As listed by ANSYS employee [gsun](https://forum.ansys.com/profile/gsun):
+<https://forum.ansys.com/discussion/34217/index-of-ansys-insight-posts-english-forum#latest>
 
 #### 2.2 Application Gallery (APP)
 URL: <https://support.lumerical.com/hc/en-us#app-anchor>
 
 
 
-#### 2.3 Knowledge Base (KB)
+#### 2.3  Ansys Innovation Courses (AIC) / Lumerical University (EDU) 
 
-#### 2.4 Lumerical University (EDU) 
+URL: <https://courses.ansys.com/index.php/learning-tracks/?course_catid=1483>
 
-#### 2.5 Ideas Exchange (IX)
+Lumerical University (EDU) has moved to the Ansys Innovation Courses (AIC) platform. AIC hosts a wide range of free, online physics and engineering courses, as well as Ansys product training courses. AIC courses are available to everyone.
 
+![AIC](https://i.imgur.com/9krKrBc.png)
+
+Lumerical University was shut down on Sept 27, 2021. Your course progress and grades reports have been deleted with the shutdown.
+
+Quick links to Lumerical's product training learning tracks in AIC:
+
+#### 2.4. Knowledge Base (KB)
+URL: <https://support.lumerical.com/hc/en-us#kb-anchor>
 
 
 ### 3. DEVICE Suite
