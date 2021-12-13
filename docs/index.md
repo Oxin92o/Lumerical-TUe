@@ -187,6 +187,10 @@ Scripting <https://courses.ansys.com/index.php/courses/ansys-lumerical-scripting
 #### 2.4. Knowledge Base (KB)
 URL: <https://support.lumerical.com/hc/en-us#kb-anchor>
 
+Here is the theoretical library of Lumerical software. The numerical methods and brief examples used by each solver can be found here. The theories used in the corresponding modules and the realization principles of each function in the software are all enumerated in detail and classified in KB.
+
+![](https://i.imgur.com/L0ZKRDZ.png)
+![](https://i.imgur.com/562grK4.png)
 
 ### 3. DEVICE Suite
 
