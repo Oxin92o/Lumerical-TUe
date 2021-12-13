@@ -134,6 +134,8 @@ Regarding software license and related questions, you need to contact [Dr. Yuqin
 
 
 ### 2. Lumerical Support
+Because of the update of the ANSYS support system, the specific web pages will be different. The details are subject to ANSYS. 
+
 
 #### 2.1 Ansys Learning Forum (ALF)
 
