@@ -197,16 +197,43 @@ DEVICE Suite: <https://support.lumerical.com/hc/en-us/categories/360001618153-DE
 ![](https://i.imgur.com/DfsEdJu.png)
 
 #### 3.1 FDTD
+
+FDTD Course <https://courses.ansys.com/index.php/courses/ansys-lumerical-fdtd/>
+
 ![](https://i.imgur.com/cRKtwJY.png)
 
+The figure above is a view of the FDTD module. An FDTD window only needs to consist of the following price areas:
+
+> + 1: Menu bar
+> + 2: Commonly used operating areas, focusing on materials, structures, and simulation parts
+> + 3: object tree
+> + 4: Quick operations, such as zoom, copy and paste, etc.
+> + 5: Simulation result area, the data will be displayed in this area after the simulation runs
+> + 6: Command area, you can directly enter commands, and software errors are also displayed here
+> + 7: Optimize the command area
+> + 8: Script editor
+> + 9: Model view display area
+
+![](https://i.imgur.com/TRwgFWe.png) 
+![](https://i.imgur.com/4h0GC1G.png)
 
 
+The computer resources need to be configured before simulation. For details, please refer to this article: https://support.lumerical.com/hc/en-us/articles/360025161033-Compute-resource-configuration-use-cases
 
-
+It should be noted that on the Windows operating system, Microsoft MPI or Intel MPI is recommended. When the server has a large number of cores, it is recommended to use Intel MPI (Intel CPU only). Microsoft MPI cannot identify the number of cores errorless.
 
 ##### 3.1.X Examples
 
 #### 3.2 MODE
+EME Course <https://courses.ansys.com/index.php/courses/ansys-lumerical-eme/>
+
+FDE Course <https://courses.ansys.com/index.php/courses/lumerical-fde/>
+
+varFDTD Course <https://courses.ansys.com/index.php/courses/ansys-lumerical-varfdtd/>
+
+![](https://i.imgur.com/2nNZhBb.png)
+
+The MODE module window is similar to the FDTD module window. The difference is that the solver is different. Under varFDTD, you can select different light sources and add different simulators. Under FDE/EME, these are not available.
 
 ##### 3.2.X Examples
 
@@ -214,9 +241,7 @@ DEVICE Suite: <https://support.lumerical.com/hc/en-us/categories/360001618153-DE
 
 ### 4. System Suite
 
-#### 4.1 INTERCONNECT
 
-##### 4.1.X Examples
 
 
 
