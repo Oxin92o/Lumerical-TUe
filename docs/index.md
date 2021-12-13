@@ -193,8 +193,16 @@ Here is the theoretical library of Lumerical software. The numerical methods and
 ![](https://i.imgur.com/562grK4.png)
 
 ### 3. DEVICE Suite
+DEVICE Suite: <https://support.lumerical.com/hc/en-us/categories/360001618153-DEVICE-Suite>
+![](https://i.imgur.com/DfsEdJu.png)
 
 #### 3.1 FDTD
+![](https://i.imgur.com/cRKtwJY.png)
+
+
+
+
+
 
 ##### 3.1.X Examples
 
