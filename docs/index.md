@@ -148,10 +148,17 @@ Here you can communicate with ANSYS employees for any questions about the use of
 The following is a list of classic Q&As listed by ANSYS employee [gsun](https://forum.ansys.com/profile/gsun):
 <https://forum.ansys.com/discussion/34217/index-of-ansys-insight-posts-english-forum#latest>
 
+The following is a list of classic FAQs about installation and use listed by ANSYS employee [Lito](https://forum.ansys.com/profile/Lito)
+<https://forum.ansys.com/discussion/33561/ansys-insight-faqs-lumerical-user-support-resources-install-and-licensing#latest>
+
+
 #### 2.2 Application Gallery (APP)
 URL: <https://support.lumerical.com/hc/en-us#app-anchor>
+![APPs](https://i.imgur.com/vlHSCnU.png)
 
+Here are some models of commonly used devices, most of the devices have matching tutorials, which can help you better understand and use Lumerical.
 
+![](https://i.imgur.com/iXNKDlY.png)
 
 #### 2.3  Ansys Innovation Courses (AIC) / Lumerical University (EDU) 
 
@@ -163,7 +170,19 @@ Lumerical University (EDU) has moved to the Ansys Innovation Courses (AIC) platf
 
 Lumerical University was shut down on Sept 27, 2021. Your course progress and grades reports have been deleted with the shutdown.
 
-Quick links to Lumerical's product training learning tracks in AIC:
+Some quick links to Lumerical's product training learning tracks in AIC:
+
+EME <https://courses.ansys.com/index.php/courses/ansys-lumerical-eme/>
+
+FDE <https://courses.ansys.com/index.php/courses/lumerical-fde/>
+
+FDTD <https://courses.ansys.com/index.php/courses/ansys-lumerical-fdtd/>
+
+varFDTD <https://courses.ansys.com/index.php/courses/ansys-lumerical-varfdtd/>
+
+Scripting <https://courses.ansys.com/index.php/courses/ansys-lumerical-scripting/> 
+
+**Early learning can create models in lumerical for simulation and analysis. For more precise control of variables and subsequent optimization, script commands are very important. After learning the basic solver course, script commands need to be emphatically understood.**
 
 #### 2.4. Knowledge Base (KB)
 URL: <https://support.lumerical.com/hc/en-us#kb-anchor>
