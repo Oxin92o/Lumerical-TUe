@@ -240,6 +240,7 @@ The MODE module window is similar to the FDTD module window. The difference is t
 
 
 ### 4. System Suite
+![](https://i.imgur.com/mWeBqNs.png)
 
 
 
@@ -248,6 +249,8 @@ The MODE module window is similar to the FDTD module window. The difference is t
 ### 5. Scripting Language
 
 #### 5.1 Lumerical University
+
+
 
 #### 5.2 Scripting language - Category Listed (updating)
 
