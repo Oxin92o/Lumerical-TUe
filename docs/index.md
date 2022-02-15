@@ -222,7 +222,10 @@ The computer resources need to be configured before simulation. For details, ple
 
 It should be noted that on the Windows operating system, Microsoft MPI or Intel MPI is recommended. When the server has a large number of cores, it is recommended to use Intel MPI (Intel CPU only). Microsoft MPI cannot identify the number of cores errorless.
 
-##### 3.1.X Examples
+##### 3.1.2 Examples
+
+
+
 
 #### 3.2 MODE
 EME Course <https://courses.ansys.com/index.php/courses/ansys-lumerical-eme/>
@@ -235,7 +238,7 @@ varFDTD Course <https://courses.ansys.com/index.php/courses/ansys-lumerical-varf
 
 The MODE module window is similar to the FDTD module window. The difference is that the solver is different. Under varFDTD, you can select different light sources and add different simulators. Under FDE/EME, these are not available.
 
-##### 3.2.X Examples
+##### 3.2.2 Examples
 
 
 
@@ -250,18 +253,104 @@ The MODE module window is similar to the FDTD module window. The difference is t
 
 #### 5.1 Lumerical University
 
+Below is a link to Lumerical's official tutorial on Script. It is important to understand the relevant content of this section of Manipulating Variables. When defining the structure and performing data processing, Lumeircal is the corresponding command. After understanding the script, you can automate the simulation and data processing through the script.
 
+https://support.lumerical.com/hc/en-us/sections/360007813714-SCRIPTING100-List-of-videos
+
+![](https://s2.loli.net/2022/02/15/lNYLCZmQnqojA8p.png)
 
 #### 5.2 Scripting language - Category Listed (updating)
+Lumerical officially gives a list of all runnable commands, listed according to the initials and usage categories. Links are also given below for access.
 
+[Lumerical scripting language - By category](https://support.lumerical.com/hc/en-us/articles/360037228834-Lumerical-scripting-language-By-category)
+[Lumerical scripting language - Alphabetical list](https://support.lumerical.com/hc/en-us/articles/360034923553-Lumerical-scripting-language-Alphabetical-list)
+
+##### 5.2.1 Examples
+
+The following is an example of building a cube and getting the cube position parameters through script commands.
+```
+switchtolayout;
+clc;
+
+deleteall;
+save("test");
+
+addstructuregroup;
+set("use relative coordinates",0);
+set("name","group");
+set("x",0);
+set("y",0);
+set("z",0);
+
+set('script','
+addrect;
+set("use relative coordinates",0);
+set("name","waveguide");
+set("x min",2e-6);
+set("x max",4e-6);
+set("y",0);
+set("y span",2e-6);
+set("z",0);
+set("z span",2e-6);
+');
+
+?getnamed("group::waveguide","x max");
+```
+The running result is shown as follows:
+![](https://s2.loli.net/2022/02/15/Zl9kxEsRXdUjryS.png)
 
 
 ### 6. Tool integrations
 
 #### 6.1 MATLAB
+The MATLAB script integration feature allows calling MATLAB commands directly from Lumerical scripts. This provides access to MATLAB while working in the Lumerical environment and uses MATLAB's powerful analysis and visualization capabilities. 
+
+[Once configured](https://support.lumerical.com/hc/en-us/articles/360026142074), Lumerical will launch MATLAB and create a connection between the two applications when the corresponding MATLAB function is called. Once the connection is established, you can transfer data from Lumerical to MATLAB (matlabput), transfer data from MATLAB to Lumerical (matlabget), and run MATLAB commands from the Lumerical script prompt (matlab).
+
+The following will list several commonly used Matlab and Lumerical related script commands.
+
+[matlab](https://support.lumerical.com/hc/en-us/articles/360034407974-matlab)
+```
+use MATLAB's "surf" command to make a surface plot of the real part of Ex
+
+matlabput(x,y,Ex);
+matlab("surf(y,x,real(Ex))");
+
+```
+
+[matlabget](https://support.lumerical.com/hc/en-us/articles/360034407994-matlabget)
+```
+The arguments to this command are one or more variable names that refer to variables in the MATLAB workspace.
+
+This function does not return any data.
+```
+
+[matlabload](https://support.lumerical.com/hc/en-us/articles/360034408034-matlabload)
+```
+matlabload("myData.mat");  
+```
+
+[matlabput](https://support.lumerical.com/hc/en-us/articles/360034408014-matlabput)
+```
+The arguments to this command are one or more variable names that exist in the Lumerical variable workspace.
+
+This function does not return any data.
+```
+
+[matlabsave](https://support.lumerical.com/hc/en-us/articles/360034928113-matlabsave)
+```
+x=1:10;
+y=x^2;
+matlabsave("x_squared_data", x, y);
+```
+
+[matlabsavelegacy](https://support.lumerical.com/hc/en-us/articles/360034928133-matlabsavelegacy)
 
 #### 6.2 More Software
+Lumerical lists all supported software, if you need it, you can visit the web page to check.
+![](https://s2.loli.net/2022/02/15/ElsimNtbWQ1RyeS.png)
 
+[Tool integration overview](https://support.lumerical.com/hc/en-us/articles/360037308014)
 
 ### Support or Contact
 
