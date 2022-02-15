@@ -287,6 +287,19 @@ varFDTD Course <https://courses.ansys.com/index.php/courses/ansys-lumerical-varf
 The MODE module window is similar to the FDTD module window. The difference is that the solver is different. Under varFDTD, you can select different light sources and add different simulators. Under FDE/EME, these are not available.
 
 ##### 3.2.2 Examples
+In this part, MODE will be used to simulate the mode overlap between SMF-28 and waveguide and analyze their mode mismatch.
+
+1. Similar to FDTD, the model structure is established first. Here we simulate the coupling between single-mode fiber and waveguide, so we build a model of fiber and waveguide respectively.
+![](https://s2.loli.net/2022/02/15/a5GmFRlb3gTVjt2.png)![](https://s2.loli.net/2022/02/16/PcuWyadbKHjITMk.png)![](https://s2.loli.net/2022/02/16/FfKGjQD4tJaWM89.png)
+
+2. In the Object Tree, enable the fiber object and disable waveguide. Run FDE and calculate the modes. Right-click the basic TE mode to add to the global slide.
+![](https://s2.loli.net/2022/02/16/mzYVtBJvTuWN2qi.png)
+
+3. Switch to layout. Disable fiber and enable waveguide. Run FDE and find modes. Select the fundamental TE mode of the waveguide and click the Overlap Analysis tap under the Eigenmodes analysis window. Select the fiber mode saved to the global deck and calculate the overlap between the two modes. 
+![](https://s2.loli.net/2022/02/16/QdJjKPs3Fpb67Cx.png)
+
+4. Click "Optimize Position" to calculate the optimized fiber position for maximum modal overlap. In this case, a 93% overlap is achieved at the current position of the fiber, as shown in the screenshot below.
+![](https://s2.loli.net/2022/02/16/lo4ZVrLSuNBTJhK.png)
 
 
 
