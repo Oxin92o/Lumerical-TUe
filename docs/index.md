@@ -1,6 +1,6 @@
 ## Welcome to Lumerical Manualbook for TU Eindhoven
 
-> update on 01/2022
+> update on Jan. 2022
 > @ Hannover
 
 ### 1. Installation and Licensing
