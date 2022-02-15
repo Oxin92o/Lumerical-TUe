@@ -253,6 +253,28 @@ Add a mode light source along the X-axis with a wavelength of 1.55 microns.
 ![](https://s2.loli.net/2022/02/15/5vzfWod1ZYXjQKA.png)
 ![](https://s2.loli.net/2022/02/15/GCAsDHFyOVxeNQb.png)
 
+6. After clicking RUN, wait for the simulation to end and observe whether the results converge.
+![](https://s2.loli.net/2022/02/15/3z2OWNk4B8CKpcx.png)
+
+7. Obtain and analyze simulation results through scripting tools.
+   ```
+   T = getresult("transmission","T");
+   R = getresult("reflection","T");
+   y1 = getresult("y1","T");
+   y2 = getresult("y2","T");
+   z1 = getresult("z1","T");
+   z2 = getresult("z2","T");
+   gIncidence = -y1.T + y2.T - z1.T + z2.T;
+ 
+   #Display the confirmation
+   ?"Transmitted power is " + num2str(T.T);
+   ?"Reflected power is " + num2str(-R.T);
+   ?"Unaccounted power at grazing incidence is " + num2str(gIncidence);
+   ?"The total power in the system is " + num2str(T.T - R.T + gIncidence); 
+   ```
+   The transmitted power is 47.49%, the reflected power is 50.94%, and the other energy dissipated is 1.67%. Considering the error, it can be considered that the total energy is conserved in the simulation area.
+   ![](https://s2.loli.net/2022/02/15/xgcpFQIruAisah1.png)
+
 #### 3.2 MODE
 EME Course <https://courses.ansys.com/index.php/courses/ansys-lumerical-eme/>
 
