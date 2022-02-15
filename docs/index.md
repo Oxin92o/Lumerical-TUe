@@ -224,8 +224,34 @@ It should be noted that on the Windows operating system, Microsoft MPI or Intel 
 
 ##### 3.1.2 Examples
 
+The process of FDTD simulation is roughly defining the material, setting up the structure and FDTD simulation area, adding monitors to record data, and finally running the simulation. Before running a simulation, checks can be made to ensure that the material properties are accurately simulated and that the computer has sufficient memory to run the simulation. After a run, data can be collected from monitors and the results can be analyzed by plotting the data or performing additional post-processing using scripts. At the same time, performing a [convergence test](https://support.lumerical.com/hc/en-us/articles/360034915833-Convergence-testing) is also an important step to obtain high-accuracy results.
+
+We take the simulation of back reflection as an example to explain the simulation process of FDTD.
+
+1. First, two cuboids are established through Structure-Rectangle, one as the waveguide and the other as the base. The size of the waveguide is 200 nm in width and 800 nm in height, and the size of the substrate can be arbitrary, but it needs to be surrounded by the subsequent simulation area. ![](https://s2.loli.net/2022/02/15/IrUPadhV83qEwmu.png)
+The final result is shown below:
+![](https://s2.loli.net/2022/02/15/qZpm41vlGzNcQxH.png)
 
 
+2. After right-clicking on the corresponding structure and Edit object, define the material on the Material tab. The waveguide material is Si and the base material is SiO2. 
+![](https://s2.loli.net/2022/02/15/PsUj8iNz1ehwDdC.png)
+![](https://s2.loli.net/2022/02/15/monUA6zukf721Ig.png)
+
+3. Added FDTD simulation area and light source. The simulated region of the FDTD should be embedded in the structure so that a convergent result can be obtained. 
+![](https://s2.loli.net/2022/02/15/jmRuoWCiO2Y4sK9.png)
+At the same time, the BC condition is PML, which perfectly matches the layer, so the result obtained is closer to the reality.
+![](https://s2.loli.net/2022/02/15/3841Z7D6fAFmnjk.png)
+Add a mode light source along the X-axis with a wavelength of 1.55 microns.
+![](https://s2.loli.net/2022/02/15/egydFSsfqj1DIvn.png)
+
+4. Two monitors are placed in front of and behind the modal light source, and two simulators are placed in the immediate space, and four simulators are placed to receive the modal power in the space.
+![](https://s2.loli.net/2022/02/15/zsM53drijhBHp8q.png)
+![](https://s2.loli.net/2022/02/15/CUOrMV7aIGmjyKF.png)
+
+5. Make sure that the mode light source is correct, and check the PC resources when it is sufficient for the simulation needs.
+![](https://s2.loli.net/2022/02/15/6dupi4qIsjBRAy1.png)
+![](https://s2.loli.net/2022/02/15/5vzfWod1ZYXjQKA.png)
+![](https://s2.loli.net/2022/02/15/GCAsDHFyOVxeNQb.png)
 
 #### 3.2 MODE
 EME Course <https://courses.ansys.com/index.php/courses/ansys-lumerical-eme/>
@@ -244,8 +270,9 @@ The MODE module window is similar to the FDTD module window. The difference is t
 
 ### 4. System Suite
 ![](https://i.imgur.com/mWeBqNs.png)
+[INTERCONNECT product reference manual](https://support.lumerical.com/hc/en-us/articles/360037304774)
 
-
+The Interconnect Reference Manual provides detailed descriptions of the product and solver functionality. Interconnect is mainly used to build a complete system environment in Lumerical for overall system-level simulation during the designed independent period. Those who need it can visit the website for detailed information.
 
 
 
